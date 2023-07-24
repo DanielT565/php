@@ -1,0 +1,193 @@
+@media (max-width: 768px) {
+  .card {
+    margin-left: 50%;
+    text-align: center;
+    margin-block-end: 200px;
+    margin-top: -70%;
+  }
+  .table-responsive {
+    height: 150px;
+  }
+  .limit {
+    height: 250px;
+    width: 15%;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 0.15rem;
+    margin-top: -110px;
+  }
+  .limit .container-fluid {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .limit .btn {
+    margin-top: 5%;
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 1400px) {
+  .card {
+    margin-left: 50%;
+    text-align: center;
+    margin-block-end: 200px;
+    margin-top: -25%;
+  }
+  .table-responsive {
+    height: 200px;
+  }
+  .limit {
+    height: 230px;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 0.25rem;
+    margin-top: -150px;
+  }
+  .limit .container-fluid {
+    font-size: 1.2rem;
+    padding-bottom: 0px;
+  }
+  .limit .btn {
+    margin-top: 5%;
+    padding: 5px;
+    font-size: 20px;
+  }
+}
+.nav {
+  border-radius: 15px 15px;
+  width: 100%;
+  top: 1px;
+  margin-block-end: 20px;
+}
+
+.nav-item .Logo {
+  margin-left: 30px;
+  margin-top: 2px;
+  width: 100px;
+  height: 120px;
+  background-image: url("../imagenes/logoinforma.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-item .alum {
+  font-size: 20px;
+  margin-left: 800px;
+  margin-top: 2%;
+  font-size: 20px;
+  color: black;
+}
+.nav-item .inven {
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: 8%;
+  font-size: 20px;
+  color: black;
+}
+.nav-item .cSesion {
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: 7%;
+  font-size: 20px;
+  color: black;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.image-container {
+  width: 60px;
+  height: 80px;
+  background-image: url("../imagenes/logPiePagin.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.text-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer-text {
+  margin: 0;
+  color: #ab6c6c; /* Color blanco del texto */
+}
+
+.containers {
+  margin-bottom: 20px;
+  margin-top: -120px;
+  padding: 8%;
+}
+
+.containerAlumn {
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 20%;
+  align-items: center;
+  height: 70vh;
+}
+.containerAlumn #login-form {
+  text-align: center;
+  width: 80%;
+}
+.containerAlumn #login-form .text-center {
+  margin-bottom: 1.5rem;
+}
+.containerAlumn #login-form .text-center h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: -90%;
+}
+.containerAlumn #login-form .input-group {
+  margin-bottom: 1rem;
+  margin-top: 5%;
+}
+.containerAlumn #login-form .input-group input.form-control {
+  padding: 0.5rem;
+  border: 1px solid #1e90ff;
+  border-radius: 1rem;
+  text-align: center;
+  width: 100%;
+}
+.containerAlumn #login-form .input-group input.form-control::placeholder {
+  text-align: center;
+}
+.containerAlumn #login-form .input-group.text-center {
+  margin-bottom: 0;
+}
+.containerAlumn #login-form button.btn-primary {
+  padding: 0.5rem 1rem;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.containerAlumn #login-form button.btn-primary:hover {
+  background-color: #0077ea;
+}
+
+.container {
+  margin-top: 150px;
+}
+.container h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */
